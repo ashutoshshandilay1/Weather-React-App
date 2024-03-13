@@ -1,0 +1,21 @@
+.infobox{
+    text-align: center;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 auto;
+}
+.card > .MuiCard-root {
+    border: 2px solid rgb(0, 255, 255); /* Apply border directly to Card component */
+    width: auto; 
+
+  }
+
+.card .MuiCard-root:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
